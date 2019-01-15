@@ -1,2 +1,6 @@
 # FaceRecognitionWithOpenCV
-Recognize face using opencv library
+
+Python packages required to run this code:
+Pillow,
+opencv-contrib-python,
+numpy,

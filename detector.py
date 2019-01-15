@@ -1,6 +1,4 @@
 import cv2
-import numpy as np
-import time
 import pickle
 # import speech
 
@@ -28,9 +26,6 @@ while True:
         if(conf<50):
             IDs = labels[Id]
         cv2.putText(im, IDs, (x, y+h), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
-        # if IDs != "Unknown":
-        #     presentPeaople.append(IDs)
-        #     speech.say('Hi {}, Welcome in Meeting'.format(IDs))
     cv2.imshow('im', im)
     if (cv2.waitKey(1) == ord('q')):
         break

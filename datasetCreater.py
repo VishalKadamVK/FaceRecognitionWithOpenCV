@@ -1,10 +1,14 @@
+"""
+This file is used for create face dataset
+"""
+
 import cv2
 import os
-import numpy as np
 dataSets = 'dataSets'
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
 
+# Label is the name of person which we have to recognize
 Label = raw_input('Enter user Label: ')
 os.mkdir("{}//{}//{}".format(os.getcwd(), dataSets, Label))
 sampleNum = 0
