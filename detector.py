@@ -1,3 +1,7 @@
+"""
+This file is used for recognize face on the basis of dataset
+"""
+
 import cv2
 import pickle
 # import speech

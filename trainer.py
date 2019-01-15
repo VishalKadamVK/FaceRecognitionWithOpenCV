@@ -1,3 +1,7 @@
+"""
+This file is used for train face dataset
+"""
+
 import cv2,os
 import numpy as np
 from PIL import Image
